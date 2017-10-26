@@ -36,7 +36,9 @@
     "karma": "rc-tools run karma",
     "saucelabs": "rc-tools run saucelabs",
     "browser-test": "rc-tools run browser-test",
-    "browser-test-cover": "rc-tools run browser-test-cover"
+    "browser-test-cover": "rc-tools run browser-test-cover",
+    "compile": "rc-tools run compile",
+    "git-release": "rc-tools run compile && git add --force lib && git add --force assets/**/*.css && git commit -m \"git release\""
   },
   "devDependencies": {
     "async": "^0.9.0",
